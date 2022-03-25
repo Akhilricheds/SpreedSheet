@@ -21598,10 +21598,9 @@ var StyleBuilder = function (options) {
 		fmt_table[table_fmt[idx]] = idx;
 	}
 
-
 	// cache style specs to avoid excessive duplication
-	_hashIndex = {};
-	_listIndex = [];
+	var _hashIndex = {};
+	var _listIndex = [];
 
 	return {
 
